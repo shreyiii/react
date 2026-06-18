@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+/* Custom styles for password generator */
+.generator-card{
+	border: 1px solid rgba(255,255,255,0.04);
+	backdrop-filter: blur(6px) saturate(120%);
+}
+
+.generator-card ul::-webkit-scrollbar{
+	height: 8px;
+	width: 8px;
+}
+.generator-card ul::-webkit-scrollbar-thumb{
+	background: rgba(255,255,255,0.08);
+	border-radius: 6px;
+}
+
+.generator-card h2{
+	letter-spacing: -0.5px;
+}
